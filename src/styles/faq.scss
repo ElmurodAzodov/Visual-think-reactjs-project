@@ -1,0 +1,31 @@
+@import "./variables.scss";
+
+.faq {
+  padding: 50px 20px;
+  text-align: center;
+
+  h2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .faq-item {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+
+    h3 {
+      font-size: 20px;
+      cursor: pointer;
+      &:hover {
+        color: lighten($primary-color, 20%);
+      }
+    }
+
+    p {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import "./variables.scss";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: transparent;
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+    li {
+      cursor: pointer;
+      &:hover {
+        color: lighten($text-color, 20%);
+      }
+    }
+  }
+}

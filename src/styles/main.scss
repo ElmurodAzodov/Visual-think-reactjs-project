@@ -1,0 +1,22 @@
+@import "./variables.scss";
+
+body {
+  font-family: $font-stack;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: $primary-color;
+  color: $text-color;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten($primary-color, 10%);
+  }
+}

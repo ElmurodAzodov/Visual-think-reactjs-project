@@ -1,0 +1,20 @@
+@import "./variables.scss";
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(180deg, #0e0e23 0%, #1f1f3d 100%);
+  
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+  }
+}
